@@ -19,7 +19,7 @@ const AppHeader = () => {
     <>
       <Group position='apart' mt='md'>
         <Anchor underline={false} size='30px' variant='text' weight='bold'>
-          SaveTok
+          TroyTok
         </Anchor>
 
         <Drawer
@@ -32,7 +32,7 @@ const AppHeader = () => {
         >
           <Divider my='sm' />
           <Title order={2} color='grape'>
-            SaveTok
+            TroyTok
           </Title>
           <Text>Tiktok Video Downloader</Text>
           <Space h='lg' />
@@ -71,7 +71,7 @@ const AppHeader = () => {
           </List>
           <Space h='xl' />
           <Title order={5}>Developed by</Title>
-          <Text>Raffy Amoguis</Text>
+          <Text>Troy</Text>
         </Drawer>
         <Button variant='light' color='grape' onClick={() => setOpened(true)}>
           About
